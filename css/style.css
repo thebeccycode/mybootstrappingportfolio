@@ -92,8 +92,19 @@ header.jumbotron .device-container .screen img {
     width: 200px;
 }
 
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 a:hover{
     background-color: rgb(56, 15, 62);
+}
+
+h3 {
+    color: black;
 }
 
 footer{
