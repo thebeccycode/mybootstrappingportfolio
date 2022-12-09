@@ -47,8 +47,18 @@ header.jumbotron .header-content {
 }
 
 header.jumbotron .header-content h1 {
-    font-size: 80px;
+    font-size: 60px;
     color: black;
+}
+
+.header-content h2{
+    font-size: 20px;
+    color: rgb(48, 87, 74);
+}
+
+.header-content h2:hover{
+    font-size: small;
+    color: rgb(19, 31, 27)
 }
 
 header.jumbotron .device-container {
@@ -92,4 +102,6 @@ footer{
    background-color: white;
    margin: 50px 50px 50px 50px;
    padding: 10px;
+   border-radius: 10px;
+   border-color: rgb(3, 10, 46);
 }
