@@ -7,7 +7,6 @@ There are certain targets to this challenge and they include:
 
 I have achieved these by:
 
-
 This is important because:
 
 

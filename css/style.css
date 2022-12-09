@@ -89,7 +89,7 @@ header.jumbotron .device-container .screen img {
 }
 
 .card img {
-    width: 200px;
+    width: 100%;
 }
 
 .contact {
