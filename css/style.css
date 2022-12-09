@@ -1,3 +1,99 @@
 body {
-    background-color: aquamarine;
+    background-color: rgb(48, 87, 74);
+}
+
+.navbar{
+    background-color: rgb(48, 87, 74);
+    display: block;
+    border-color: white;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navbar li {
+    display: inline-block;
+    text-align: right;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    width: 120px;
+    display: block;
+    padding: 20px 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+header.jumbotron {
+    position: relative;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    margin-bottom: 0px;
+    color: white;
+    background: url(../images/pexels-eberhard-grossgasteiger-1699030.jpg);
+}
+
+header.jumbotron .header-content {
+    max-width: viewport-length;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+header.jumbotron .header-content h1 {
+    font-size: 80px;
+    color: black;
+}
+
+header.jumbotron .device-container {
+    max-width: 325px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header.jumbotron .device-container .screen img {
+    border-radius: 3px;
+}
+
+.description, .project-title{
+    padding: 50px;
+    justify-content: center;
+    color: white;
+}
+
+
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    padding: 10px;
+    border-color: rgb(3, 10, 46);
+}
+
+.card img {
+    width: 200px;
+}
+
+.contactlinks {
+    justify-content: center;
+}
+
+footer{
+    margin: 10px 100px 10px 100px;
+    padding: 10px;
+    justify-content: center;
+    color: white;
+}
+
+h6{
+    text-align: end;
 }
